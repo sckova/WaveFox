@@ -1,0 +1,3 @@
+[submodule "Betterfox"]
+	path = Betterfox
+	url = https://github.com/yokoffing/Betterfox

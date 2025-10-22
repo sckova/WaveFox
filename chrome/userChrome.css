@@ -2,42 +2,296 @@
 
 /* ---------- General styles ---------- */
 
-@import "modules/general_styles/wavefox_experimental_functions.css"    layer(BasicPriority); /* supports() -moz-pref("", false) */
+@import "modules/general_styles/wavefox_experimental_functions.css" layer(BasicPriority);
+/* supports() -moz-pref("", false) */
 
-@import "modules/general_styles/wavefox_transparency_on_windows11.css" layer(HighPriority)   /* supports() */ (-moz-platform: windows);
-@import "modules/general_styles/wavefox_transparency_on_windows10.css" layer(HighPriority)   /* supports() */ (-moz-platform: windows);
-@import "modules/general_styles/wavefox_transparency_on_linux.css"     layer(HighPriority)   /* supports() */ (-moz-platform: linux);
-@import "modules/general_styles/wavefox_web_page.css"                  layer(HighPriority);  /* supports() -moz-pref("", false) */
+@import "modules/general_styles/wavefox_transparency_on_windows11.css" layer(HighPriority)
+/* supports() */
+(-moz-platform: windows);
+@import "modules/general_styles/wavefox_transparency_on_windows10.css" layer(HighPriority)
+/* supports() */
+(-moz-platform: windows);
+@import "modules/general_styles/wavefox_transparency_on_linux.css" layer(HighPriority)
+/* supports() */
+(-moz-platform: linux);
+@import "modules/general_styles/wavefox_web_page.css" layer(HighPriority);
+/* supports() -moz-pref("", false) */
 
-@import "modules/general_styles/firefox-csshacks/iconized_content_context_menu.css" layer(BasicPriority) /* supports() */ -moz-pref("WaveFox.Icons", 1);
-@import "modules/general_styles/firefox-csshacks/iconized_main_menu.css"            layer(BasicPriority) /* supports() */ -moz-pref("WaveFox.Icons", 1);
-@import "modules/general_styles/firefox-csshacks/iconized_places_context_menu.css"  layer(BasicPriority) /* supports() */ -moz-pref("WaveFox.Icons", 1);
-@import "modules/general_styles/firefox-csshacks/iconized_tabs_context_menu.css"    layer(BasicPriority) /* supports() */ -moz-pref("WaveFox.Icons", 1);
-@import "modules/general_styles/firefox-csshacks/iconized_textbox_context_menu.css" layer(BasicPriority) /* supports() */ -moz-pref("WaveFox.Icons", 1);
-@import "modules/general_styles/Firefox-UI-Fix/icons/Firefox-UI-Fix_icons.css"      layer(BasicPriority) /* supports() */ -moz-pref("WaveFox.Icons", 2);
+@import "modules/general_styles/firefox-csshacks/iconized_content_context_menu.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("WaveFox.Icons", 1);
+@import "modules/general_styles/firefox-csshacks/iconized_main_menu.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("WaveFox.Icons", 1);
+@import "modules/general_styles/firefox-csshacks/iconized_places_context_menu.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("WaveFox.Icons", 1);
+@import "modules/general_styles/firefox-csshacks/iconized_tabs_context_menu.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("WaveFox.Icons", 1);
+@import "modules/general_styles/firefox-csshacks/iconized_textbox_context_menu.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("WaveFox.Icons", 1);
+@import "modules/general_styles/Firefox-UI-Fix/icons/Firefox-UI-Fix_icons.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("WaveFox.Icons", 2);
 
 /* ---------- Horizontal tabs ---------- */
 
-@import "modules/horizontal_tabs/wavefox_tabs.css"                      layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_tabs_background_inactive.css"  layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_selected_tab_indicator.css"    layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_tab_media_icons_and_text.css"  layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_toolbar_buttons.css"           layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_tab_separators.css"            layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_tab_shadows.css"               layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_drag_space.css"                layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_toolbar_transparency.css"      layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_web_page.css"                  layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_tabs.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_tabs_background_inactive.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_selected_tab_indicator.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_tab_media_icons_and_text.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_toolbar_buttons.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_tab_separators.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_tab_shadows.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_drag_space.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_toolbar_transparency.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_web_page.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
 
-@import "modules/horizontal_tabs/wavefox_one_line.css"                  layer(HighPriority)  /* supports() */ -moz-pref("sidebar.verticalTabs", false);
-@import "modules/horizontal_tabs/wavefox_tabs_below_url.css"            layer(HighPriority)  /* supports() */ -moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_one_line.css" layer(HighPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
+@import "modules/horizontal_tabs/wavefox_tabs_below_url.css" layer(HighPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", false);
 
 /* ---------- Vertical tabs ---------- */
 
-@import "modules/vertical_tabs/wavefox_main_window.css"              layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", true);
-@import "modules/vertical_tabs/wavefox_browser_window.css"           layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", true);
-@import "modules/vertical_tabs/wavefox_tabs.css"                     layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", true);
-@import "modules/vertical_tabs/wavefox_tab_media_icons_and_text.css" layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", true);
-@import "modules/vertical_tabs/wavefox_toolbar_buttons.css"          layer(BasicPriority) /* supports() */ -moz-pref("sidebar.verticalTabs", true);
+@import "modules/vertical_tabs/wavefox_main_window.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", true);
+@import "modules/vertical_tabs/wavefox_browser_window.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", true);
+@import "modules/vertical_tabs/wavefox_tabs.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", true);
+@import "modules/vertical_tabs/wavefox_tab_media_icons_and_text.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", true);
+@import "modules/vertical_tabs/wavefox_toolbar_buttons.css" layer(BasicPriority)
+/* supports() */
+-moz-pref("sidebar.verticalTabs", true);
 
 /* ---------------------------------------- Third-party styles (Maximum priority) ---------------------------------------- */
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: color-mix(in srgb, Canvas 50%, transparent 50%) !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: color-mix(in srgb, Canvas 50%, transparent 50%) !important;
+  }
+}
+
+body {
+  background-color: color-mix(in srgb, Canvas 50%, transparent 50%) !important;
+}
+
+
+:root:not([lwtheme]) {
+  #browser:not(.browser-toolbox-background) {
+    background-color: transparent !important;
+    --tabpanel-background-color: transparent !important;
+  }
+}
+
+#star-button-box {
+  display: none !important;
+}
+
+#reader-mode-button {
+  display: none !important;
+}
+
+#tracking-protection-icon-container {
+  display: none !important;
+}
+
+.titlebar-min.toolbarbutton-icon,
+.titlebar-max.toolbarbutton-icon,
+.titlebar-restore.toolbarbutton-icon,
+.titlebar-close.toolbarbutton-icon {
+  background-size: auto !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#main-window {
+  --arrowpanel-border-color: AccentColor !important;
+  --toolbar-field-focus-border-color: AccentColor !important;
+  --lwt-toolbar-field-highlight: AccentColor !important;
+  --toolbarbutton-icon-fill-attention: AccentColor !important;
+  --tab-loading-fill: AccentColor !important;
+  --lwt-tab-line-color: AccentColor !important;
+  --lwt-background-tab-separator-color: AccentColor !important;
+  --toolbarseparator-color: AccentColor !important;
+  --sidebar-border-color: AccentColor !important;
+
+  --lwt-accent-color-inactive: AccentColorText !important;
+  --lwt-accent-color: AccentColorText !important;
+  --newtab-background-color: AccentColorText !important;
+  --lwt-accent-color-inactive: AccentColorText !important;
+
+  --toolbarbutton-active-background: ButtonBorder !important;
+  --urlbarView-highlight-background: ButtonBorder !important;
+
+  --lwt-text-color: FieldText;
+  --arrowpanel-color: FieldText !important;
+  --toolbar-color: FieldText !important;
+  --toolbar-field-color: FieldText !important;
+  --toolbar-field-focus-color: FieldText !important;
+  --toolbarbutton-icon-fill: FieldText !important;
+  --newtab-text-primary-color: FieldText !important;
+  --tab-selected-textcolor: FieldText !important;
+  --urlbarView-highlight-color: FieldText !important;
+  --sidebar-text-color: FieldText !important;
+
+  --arrowpanel-background: Canvas !important;
+  --toolbar-bgcolor: Canvas !important;
+  --toolbar-field-border-color: transparent !important;
+  --toolbar-field-focus-background-color: Canvas !important;
+  --lwt-toolbar-field-highlight-text: Canvas !important;
+  --tab-selected-bgcolor: Canvas !important;
+  --chrome-content-separator-color: Canvas !important;
+  --sidebar-background-color: Canvas !important;
+
+  --lwt-background-alignment: top;
+  --lwt-background-tiling: repeat;
+}
+
+/*.titlebar-button.titlebar-min>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-minimize-symbolic) !important;
+}
+
+.titlebar-button.titlebar-min:hover>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-minimize-symbolic) !important;
+}
+
+.titlebar-button.titlebar-max>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-maximize-symbolic) !important;
+}
+
+.titlebar-button.titlebar-max:hover>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-maximize-symbolic) !important;
+}
+
+.titlebar-button.titlebar-restore>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-restore-symbolic) !important;
+}
+
+.titlebar-button.titlebar-restore:hover>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-restore-symbolic) !important;
+}
+
+.titlebar-button.titlebar-close>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-close-symbolic) !important;
+}
+
+.titlebar-button.titlebar-close:hover>.toolbarbutton-icon {
+  background-image: -moz-symbolic-icon(window-close-symbolic) !important;
+}*/
+
+/*@media (prefers-color-scheme: light) {
+    #main-window {
+    --lwt-accent-color: rgb(220, 224, 232) !important;
+    --lwt-text-color: rgba(76, 79, 105);
+    --arrowpanel-background: rgb(239, 241, 245) !important;
+    --arrowpanel-color: rgb(76, 79, 105) !important;
+    --arrowpanel-border-color: rgb(254, 100, 11) !important;
+    --toolbar-field-background-color: rgb(230, 233, 239) !important;
+    --toolbar-bgcolor: rgb(239, 241, 245) !important;
+    --toolbar-color: rgb(76, 79, 105) !important;
+    --toolbar-field-color: rgb(76, 79, 105) !important;
+    --toolbar-field-border-color: rgb(239, 241, 245) !important;
+    --toolbar-field-focus-background-color: rgba(239, 241, 245, 1) !important;
+    --toolbar-field-focus-color: rgb(76, 79, 105) !important;
+    --toolbar-field-focus-border-color: rgb(254, 100, 11) !important;
+    --lwt-toolbar-field-highlight: rgba(254, 100, 11, 1) !important;
+    --lwt-toolbar-field-highlight-text: rgb(239, 241, 245) !important;
+    --toolbarbutton-icon-fill: rgb(76, 79, 105) !important;
+    --toolbarbutton-icon-fill-attention: rgb(254, 100, 11) !important;
+    --newtab-background-color: rgb(220, 224, 232) !important;
+    --newtab-text-primary-color: rgb(76, 79, 105) !important;
+    --lwt-accent-color-inactive: rgb(220, 224, 232) !important;
+    --lwt-background-alignment: top;
+    --lwt-background-tiling: repeat;
+    --tab-loading-fill: rgb(254, 100, 11) !important;
+    --tab-selected-bgcolor: rgb(239, 241, 245) !important;
+    --tab-selected-textcolor: rgb(76, 79, 105) !important;
+    --lwt-tab-line-color: rgb(254, 100, 11) !important;
+    --lwt-background-tab-separator-color: rgb(254, 100, 11) !important;
+    --toolbarseparator-color: rgb(254, 100, 11) !important;
+    --chrome-content-separator-color: rgb(239, 241, 245) !important;
+    --toolbarbutton-active-background: rgb(156, 160, 176) !important;
+    --urlbarView-highlight-background: rgb(156, 160, 176) !important;
+    --urlbarView-highlight-color: rgb(76, 79, 105) !important;
+    --sidebar-background-color: rgb(239, 241, 245) !important;
+    --sidebar-text-color: rgb(76, 79, 105) !important;
+    --sidebar-border-color: rgb(254, 100, 11) !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #main-window {
+    --lwt-accent-color: rgb(17, 17, 27) !important;
+    --lwt-text-color: rgba(205, 214, 244);
+    --arrowpanel-background: rgb(30, 30, 46) !important;
+    --arrowpanel-color: rgb(205, 214, 244) !important;
+    --arrowpanel-border-color: rgb(250, 179, 135) !important;
+    --toolbar-field-background-color: rgb(24, 24, 37) !important;
+    --toolbar-bgcolor: rgb(30, 30, 46) !important;
+    --toolbar-color: rgb(205, 214, 244) !important;
+    --toolbar-field-color: rgb(205, 214, 244) !important;
+    --toolbar-field-border-color: rgb(30, 30, 46) !important;
+    --toolbar-field-focus-background-color: rgba(30, 30, 46, 1) !important;
+    --toolbar-field-focus-color: rgb(205, 214, 244) !important;
+    --toolbar-field-focus-border-color: rgb(250, 179, 135) !important;
+    --lwt-toolbar-field-highlight: rgba(250, 179, 135, 1) !important;
+    --lwt-toolbar-field-highlight-text: rgb(30, 30, 46) !important;
+    --toolbarbutton-icon-fill: rgb(205, 214, 244) !important;
+    --toolbarbutton-icon-fill-attention: rgb(250, 179, 135) !important;
+    --newtab-background-color: rgb(17, 17, 27) !important;
+    --newtab-text-primary-color: rgb(205, 214, 244) !important;
+    --lwt-accent-color-inactive: rgb(17, 17, 27) !important;
+    --lwt-background-alignment: top;
+    --lwt-background-tiling: repeat;
+    --tab-loading-fill: rgb(250, 179, 135) !important;
+    --tab-selected-bgcolor: rgb(30, 30, 46) !important;
+    --tab-selected-textcolor: rgb(205, 214, 244) !important;
+    --lwt-tab-line-color: rgb(250, 179, 135) !important;
+    --lwt-background-tab-separator-color: rgb(250, 179, 135) !important;
+    --toolbarseparator-color: rgb(250, 179, 135) !important;
+    --chrome-content-separator-color: rgb(30, 30, 46) !important;
+    --toolbarbutton-active-background: rgb(108, 112, 134) !important;
+    --urlbarView-highlight-background: rgb(108, 112, 134) !important;
+    --urlbarView-highlight-color: rgb(205, 214, 244) !important;
+    --sidebar-background-color: rgb(30, 30, 46) !important;
+    --sidebar-text-color: rgb(205, 214, 244) !important;
+    --sidebar-border-color: rgb(250, 179, 135) !important;
+    }
+}*/
